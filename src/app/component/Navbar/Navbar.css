@@ -1,0 +1,43 @@
+.navbar {
+  justify-content: left;
+  position: sticky;
+}
+#navstarLogo {
+  margin: 0px 8px 0px 70px;
+}
+.search{
+margin: 0px 0px 0px 475px;
+}
+#search{
+    width: 350px;
+    padding:5px 0px 5px 5px;
+    margin-left: 80px;
+    font-size: 13px;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5px;
+    font-family:  "Gill Sans", sans-serif;
+    color: gary;
+}
+
+#profile{
+ border-radius: 40px;
+ margin: 0px 0px 0px 10px ;
+}
+body{
+    background-color: rgb(246, 246, 247);
+}
+
+#logout {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(328deg, #3820cf, #be05ef);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  margin:0px 0px 0px 40px;
+  border-radius: 5px;
+}
+
+#logout:hover {
+  background: linear-gradient(328deg, #513bdf, #613fdf);
+  
+}

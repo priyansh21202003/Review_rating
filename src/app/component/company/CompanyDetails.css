@@ -1,0 +1,144 @@
+/* css for company selected */
+.background-color {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .selected {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .company-border {
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255),
+      rgba(255, 255, 255)
+    );
+  }
+  
+  .company-details {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+  
+    /* border: 1px solid red; */
+  }
+  #company-img {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    /* border: 1px solid blue; */
+  }
+  
+  #details-align {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 0px;
+    width: auto;
+    height: 100px;
+    /* border: 1px solid black; */
+  }
+  #rating-align {
+    display: flex;
+    align-items: center;
+    width: 224px;
+    justify-content: space-between;
+  }
+  #star_rating {
+    margin-bottom: 10px;
+    height: 25px;
+    width: auto;
+  }
+  /* add review button */
+  
+  .add-review-btn {
+    display: flex;
+  
+    position: absolute;
+    width: fit-content;
+  
+    margin: 0px 0px 0px 550px;
+  }
+  #add-review {
+    display: flex;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: linear-gradient(328deg, #3820cf, #be05ef);
+    margin: 50px 0px 0px 300px;
+  }
+  #underline {
+    display: flex;
+    width: 100%;
+    height: 10px;
+    
+    /* border: 1px solid blueviolet; */
+  }
+  #underline hr {
+    width: 960px;
+    color: rgb(179 155 155);
+  }
+  
+  /* company reviews & comment */
+  /* 
+  .company-reviews{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; 
+  
+  } */
+  
+  .reviews-list {
+    display: flex;
+    flex-direction: column;
+    
+    /* border: 1px solid black; */
+    
+  }
+  
+  #user-reviews{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    margin: 20px 0px 30px -17px;
+  }
+  #user-reviews img{
+    margin-right:10px;
+  }
+  #reviews-align{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(0, 255, 21); */
+  }
+  
+  #reviews-subject{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    
+  }
+  #reviews-rating{
+    position: absolute;
+    margin: 0px 0px 0px 800px ;
+  }
+  #reviews-createdAt{
+    font-size: 12px;
+    color: rgb(151, 144, 144);
+    margin-bottom: 5px;
+  }
+  #reviews-review{
+    color: gray;
+    font-size: 14px;
+    margin-right: 90px;
+  }

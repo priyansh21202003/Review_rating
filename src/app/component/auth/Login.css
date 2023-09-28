@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.body_Login{
+ 
+    font-family: 'Poppins', sans-serif;
+}
+.login-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg,#c49ee9, #504880);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.login-left{
+   width: 50% ;
+   text-align: center;
+   margin-left: -20px;
+   color: white;
+}
+#login-h1{
+
+}
+#login-p1{
+    font-size: 20px;
+}
+#login-image1{
+   width: 80%;
+}
+.login-form{
+ background-color: white;
+ margin-right: 200px;
+ width: 70% ;
+ min-height: 540px;
+ border-radius: 5px;
+
+}
+.login-inputs{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.login-details{
+    margin-top: 20px;
+}
+#login-h2{
+   margin-left: 60px;
+   color:rgb(82, 23, 137);
+}
+#login-p2{
+    margin-top: 40px;
+    margin-left: -50px;
+    color: rgb(86, 86, 86);
+}
+.login-corner2{
+ 
+   
+}
+#login-cornerright{
+ width: 50px;
+ margin: 10px;
+ margin-top: 20px;
+}
+.loginForm-input{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+#login-forgot{
+    margin-left: 280px;
+    color:rgb(104, 102, 102);
+}
+#login-submit1{
+    background: linear-gradient(328deg, #3820cf, #be05ef);
+    color: white;
+    margin-left: 170px;
+    width: 120px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.login-hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#login-p3{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+}
+#login-register{
+    text-align: center;
+    margin-left: 200px;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}

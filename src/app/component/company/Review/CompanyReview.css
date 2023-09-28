@@ -1,0 +1,136 @@
+review.css
+ /* .navbar{
+    opacity: 0.5;
+ } */
+ .review-main{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-right{
+    
+    margin-top: 30px;
+    width: 600px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.909);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 100000;
+    /* box-shadow: 10px 10px 10px 10px rgb(0, 0, 0,0.465); */
+    box-shadow: 0px 4px 20px 10px rgb(0, 0, 0, 0.465);
+}
+
+.review-imgg {
+    display: flex;
+    justify-content: space-between;
+}
+.review-dStar{
+    width: 9rem;
+    height: 9rem;
+    margin: -17px;
+}
+.review-star{
+    padding: 23px;
+}
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #161414;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+.review-heading {
+margin: -50px 0px 100px 0px;
+    /* border: 2px solid black; */
+    text-align: center;
+    
+    
+  }
+
+  .review-heading h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(20, 20, 20);
+  }
+
+  .review-formarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+  }
+  .form {
+    width: 80%;
+    
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    padding: 10px;
+  }
+  .p-input{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 -8px;
+    flex-direction: column;
+  }
+  .input {
+    color:black;
+    padding: 5px 5px;
+    margin: 5px;
+    background: transparent;
+    border: 1px solid rgb(211, 206, 206);
+    font-size: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .review-btn {
+    width: fit-content;
+    padding: 7px 25px;
+    margin:10px auto;
+    border: none;
+    transition: all 0.5s;
+    border-radius: 5px;
+    background: linear-gradient(328deg, #3820cf, #be05ef);
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  textarea{
+    resize: none;
+  }
+  .from_label{
+    margin-left: 5px;
+    color: rgb(85, 82, 82);
+font-size: 12px;
+
+  }
+ 
+
